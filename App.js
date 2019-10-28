@@ -21,14 +21,14 @@ function start() {
     //If Player 1 Wins
     if(randomNumber1 > randomNumber2) {
         Score1++;
-        document.querySelector("h1").innerHTML = "🚩 Player 1 Wins ✋.";
+        document.querySelector("h1").innerHTML = "🚩 Player 1 Wins.";
         Player1.innerHTML = Score1;
         Player2.innerHTML = Score2;
     }
     //If Player 2 Wins
     else if(randomNumber1 < randomNumber2) {
         Score2++;
-        document.querySelector("h1").innerHTML = "🚩 Player 2 Wins 🤚.";
+        document.querySelector("h1").innerHTML = "🚩 Player 2 Wins.";
         Player1.innerHTML = Score1;
         Player2.innerHTML = Score2;
     }
